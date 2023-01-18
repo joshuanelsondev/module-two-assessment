@@ -1,0 +1,64 @@
+body {
+    background: lavender;
+    font-family: monospace;
+    display: grid;
+    justify-items: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: skyblue;
+    width: 75%;
+}
+
+.logoImg {
+    height: 150px;
+}
+
+h1 {
+    position: relative;
+    justify-self: end;
+    margin-top: 0;
+}
+
+main {
+    display: grid;
+    width: 75%;
+}
+
+select {
+    width: 200px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 200px 100px;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 15px;
+}
+
+.reviewLabel {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 14px;
+}
+
+.reviewInputField {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.reviewSubmitButton {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+/* Buttons */
+.btn {
+    border: 1px solid gray;
+    background: white;
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow: 1px 1px gray;
+}

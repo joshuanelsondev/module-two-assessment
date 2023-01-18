@@ -29,7 +29,7 @@ This will install the libraries needed to run the tests.
 1. Open up the repository in VSCode. Follow the instructions below to complete the Lab.
 
 
-1. There is a `main.js` file for you with some starter code. Unfortunately, at least one of the tests in Cypress has been reported as `flakey` (works sometimes and not others with the correct implementation of the feature). This  stater code should resolve the flakines. It is a non-optimal solution and a proper solution is being researched. However, until that solution is found, please use this work around. If you are not sure what to do with this starter code, please reach out to an instructor. 
+1. There is a `main.js` file for you with some starter code. Unfortunately, at least one of the tests in Cypress has been reported as `flakey` (works sometimes and not others with the correct implementation of the feature). This  stater code should resolve the flakiness. It is a non-optimal solution and a proper solution is being researched. However, until that solution is found, please use this work around. If you are not sure what to do with this starter code, please reach out to an instructor. 
 
 ### Tests
 
