@@ -54,6 +54,10 @@ form {
     grid-row: 2;
 }
 
+.hide {
+    display: none;
+}
+
 /* Buttons */
 .btn {
     border: 1px solid gray;
