@@ -65,4 +65,11 @@ form {
     border-radius: 5px;
     width: fit-content;
     box-shadow: 1px 1px gray;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    #reviews {
+        display: none;
+    }
 }

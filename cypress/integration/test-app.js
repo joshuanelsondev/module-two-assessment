@@ -211,6 +211,7 @@ describe("Reset reviews", () => {
   });
 });
 let stub;
+
 describe("Error handling for reviews", () => {
   it("Alerts if a user did not select a movie when creating a comment", () => {
     stub = cy.stub();
